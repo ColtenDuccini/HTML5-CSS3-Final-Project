@@ -1,0 +1,125 @@
+
+@import url("https://p.typekit.net/p.css?s=1&k=fum0eoy&ht=tk&f=10954.13453.13454.13455.25657.25658.25659.25660.25670.25671.25672.25673.41781.41782.41787.41788.41793.41794.41795.41796.41797.41798.41799.41800&a=55997786&app=typekit&e=css");
+
+@font-face {
+font-family:"freight-sans-pro";
+src:url("https://use.typekit.net/af/442215/000000000000000000010b5a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/442215/000000000000000000010b5a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/442215/000000000000000000010b5a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"freight-sans-pro";
+src:url("https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"freight-sans-pro";
+src:url("https://use.typekit.net/af/1709eb/000000000000000000010b60/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/1709eb/000000000000000000010b60/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/1709eb/000000000000000000010b60/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"freight-sans-pro";
+src:url("https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+html {
+    overflow-y: scroll;
+    font-family: "freight-sans-pro";
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: #3B7EA1;
+    color: white;
+    height: auto;
+    margin: 0 0 0 0;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.row {
+    align-content: space-around center;
+    vertical-align: center;
+    align-content: center;
+}
+
+.col-2 {
+    top: 50%;
+    transform: translateY(50%);
+
+}
+
+.logo {
+    align-self: left;
+    display: block;
+    
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.decade {
+    background: #FDB515;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.decades-menu {
+    float: left;
+    display:list-item ;
+    position: absolute;
+    border: hidden;
+    justify-content: center;
+}
+
+.decades-menu li {
+    float: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    border-radius: 1px;
+    background: #3B7EA1;
+    padding: 5px 5px;
+    list-style-type: none;
+}
+
+.decade h1 {
+   text-align: center;
+   padding: 20px 0px;
+   color: #003262;
+   font-size: xx-large;
+}
+
+.decade-text {
+    text-align: left;
+    width: 20%;
+    padding: 0px 30px;
+    color: #003262;
+    font-size: large;
+    float: left;
+}
+
+.text-2021 {
+    text-align: center;
+    width: 70%;
+    padding: 0px 30px;
+    color: #003262;
+}
+
+.decade-image {
+    text-align: right;
+}
+
+.decade-image-container {
+
+}
