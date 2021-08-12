@@ -95,6 +95,10 @@ a:visited {
     display: none;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .burger-menu li {
     float: center;
     justify-content: center;
