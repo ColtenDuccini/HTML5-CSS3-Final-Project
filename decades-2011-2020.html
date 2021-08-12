@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <title>130 Years of UC Berkeley Extension - 2011 to 2020</title>
         <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./node_modules/lightbox2/dist/css/lightbox.min.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
         
     </head>
@@ -11,7 +12,7 @@
         <header>
             <nav>
                 <div class="row">
-                    <div class="logo col"><img src="/assets/images/logo-ucberkeley-white.png"></div>
+                    <div class="logo col"><img src="/assets/images/logo-ucberkeley-white.png" alt="UC Berkeley logo"></div>
                     <div class="col-2">
                         <a href="/homepage.html">Home</a>
                     </div>
@@ -43,11 +44,15 @@
                     university. To improve accessibility to the growing number of professionals in downtown San
                     Francisco, Extension opened its Spear Street campus in the heart of the East Cut in 2015.
                 </p>
-                <img class="decade-image" src="assets/images/2011-2020/2010 1.jpg">
-                <img class="decade-image" src="assets/images/2011-2020/2010 2.jpg">
-                <img class="decade-image" src="assets/images/2011-2020/2010 3.jpg">
+                <div class="decade-image-container">
+                    <a href="assets/images/2011-2020/2010 1.jpg" data-lightbox="image-1" aria-label=""><img class="decade-image" src="assets/images/2011-2020/2010 1.jpg" alt=""></a>
+                    <a href="assets/images/2011-2020/2010 2.jpg" data-lightbox="image-1" aria-label=""><img class="decade-image" src="assets/images/2011-2020/2010 2.jpg" alt=""></a>
+                    <a href="assets/images/2011-2020/2010 3.jpg" data-lightbox="image-1" aria-label=""><img class="decade-image" src="assets/images/2011-2020/2010 3.jpg" alt=""></a>
+                </div>
+                
             </section>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="./node_modules/lightbox2/dist/js/lightbox.min.js"></script>
             <script src="./assets/js/decades-button.js"></script>
     </body>
 </html>

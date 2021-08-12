@@ -4,13 +4,14 @@
         <meta charset="utf-8"/>
         <title>130 Years of UC Berkeley Extension - 1891 to 1910</title>
         <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./node_modules/lightbox2/dist/css/lightbox.min.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
     </head>
     <body>
         <header>
             <nav>
                 <div class="row">
-                    <div class="logo col"><img src="/assets/images/logo-ucberkeley-white.png"></div>
+                    <div class="logo col"><img src="/assets/images/logo-ucberkeley-white.png" alt="UC Berkeley logo"></div>
                     <div class="col-2">
                         <a href="/homepage.html">Home</a>
                     </div>
@@ -43,9 +44,9 @@
                 crisis hit the university and in 1893 the faculty was no longer able to provide courses to the public
                 without being offered any compensation.</p>
                 <div class="decade-image-container">
-                    <img class="decade-image" src="/assets/images/1891-1910/1890 1.jpg">
-                    <img class="decade-image" src="/assets/images/1891-1910/1890 2.jpg">
-                    <img class="decade-image" src="/assets/images/1891-1910/1890 3.jpg">
+                    <a href="/assets/images/1891-1910/1890 1.jpg" data-lightbox="image-1" alt="" aria-label=""><img class="decade-image" src="/assets/images/1891-1910/1890 1.jpg" alt=""></a> 
+                    <a href="/assets/images/1891-1910/1890 2.jpg" data-lightbox="image-1" alt="" aria-label=""><img class="decade-image" src="/assets/images/1891-1910/1890 2.jpg" alt=""></a> 
+                    <a href="/assets/images/1891-1910/1890 3.jpg" data-lightbox="image-1" alt="" aria-label=""><img class="decade-image" src="/assets/images/1891-1910/1890 3.jpg" alt=""></a> 
                 </div>
         </section>
         <section class="decade">
@@ -63,11 +64,14 @@
                 corresExtension to grow exponentially, reaching its peak of 15 centers around the state of California
                 in 1905. However, when Stephens continued his career with other university appointments after
                 1905, Extension activities declined until they ultimately ceased in 1910.</p>
-                <img class="decade-image" src="/assets/images/1891-1910/1900 1.jpg">
-                <img class="decade-image" src="/assets/images/1891-1910/1900 2.jpg">
-                <img class="decade-image" src="/assets/images/1891-1910/1900 3.jpg">
+                <div class="decade-image-container">
+                <a href="/assets/images/1891-1910/1900 1.jpg" data-lightbox="image-2" aria-label=""><img class="decade-image" src="/assets/images/1891-1910/1900 1.jpg" alt=""></a>
+                <a href="/assets/images/1891-1910/1900 2.jpg" data-lightbox="image-2" aria-label=""><img class="decade-image" src="/assets/images/1891-1910/1900 2.jpg" alt=""></a>
+                <a href="/assets/images/1891-1910/1900 3.jpg" data-lightbox="image-2" aria-label=""><img class="decade-image" src="/assets/images/1891-1910/1900 3.jpg" alt=""></a>
+            </div>
         </section>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-            <script src="./assets/js/decades-button.js"></script>
+        <script src="./node_modules/lightbox2/dist/js/lightbox.min.js"></script>
+        <script src="./assets/js/decades-button.js"></script>
     </body>
 </html>

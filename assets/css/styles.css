@@ -25,6 +25,10 @@ src:url("https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/l?primer=
 font-display:auto;font-style:italic;font-weight:700;
 }
 
+@media screen and (min-width: 576px){ 
+    
+}
+
 html {
     overflow-y: scroll;
     font-family: "freight-sans-pro";
@@ -109,7 +113,7 @@ a:visited {
     float: left;
 }
 
-.text-2021 {
+.twentytwentyone-text {
     text-align: center;
     width: 70%;
     padding: 0px 30px;
@@ -117,9 +121,9 @@ a:visited {
 }
 
 .decade-image {
-    text-align: right;
+    
 }
 
 .decade-image-container {
-
+    text-align: right;
 }
