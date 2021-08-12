@@ -66,8 +66,8 @@ header {
 .logo {
     align-self: left;
     display: block;
-    
 }
+
 a:visited {
     color: white;
     text-decoration: none;
@@ -85,6 +85,21 @@ a:visited {
     display: none;
     border: hidden;
     justify-content: center;
+}
+
+.nav-burger {
+    display: none;
+}
+
+.burger-menu li {
+    float: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    border-radius: 1px;
+    background: #3B7EA1;
+    padding: 5px 5px;
+    list-style-type: none;
 }
 
 .decades-menu li {
@@ -164,4 +179,39 @@ a:visited {
 
 .homepage-textbox-heading {
     text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+
+    header .logo {
+        align-self: center;
+    }
+    header .nav-wide {
+        display: none;
+    }
+
+    .nav-burger {
+        height: 100%;
+        color: white;
+        float: right;
+        display: flex;
+    }
+
+    .nav-burger img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .burger-menu-decades {
+        position: absolute;
+        display: none;
+    }
+
+    .burger-2021 {
+        position: relative;
+    }
 }
