@@ -131,6 +131,7 @@ a:visited {
 .twentytwentyone-text {
     text-align: center;
     margin: auto;
+    font-size: large;
     text-anchor: middle;
     width: 70%;
     padding: 0px 0px 30px;
